@@ -5,7 +5,7 @@ The aforementioned paper offers additional illustrations, insights, and examples
 
 # Strongly Connected Components (SCC) algorithm using Neo4j graph database
 
-The following instructions help implementing the SCC algorithm to detect the presence of cyclic depednencies based on the methodology outlined in the paper.
+The following instructions help implementing the SCC algorithm to detect the presence of cyclic depednencies based on the methodology presented in the paper.
 
 **1.** Install _Neo4j Desktop_ following the instructions mentioned in [[1]](https://neo4j.com/docs/desktop-manual/current/installation/download-installation/).  
 **2.** Use _Neo4j Desktop_ to create a new graph database.  
@@ -16,7 +16,7 @@ The following instructions help implementing the SCC algorithm to detect the pre
 
 **3.** Under the database "_Plugins_" section, install "_APOC_" and "_Graph Data Science Library_". 
    - _Awesome Procedures On Cypher (APOC)_ [[2]](https://neo4j.com/labs/apoc/) adds a lot of useful_ Cypher_ functionalities that help manipulating the data. 
-   - _Graph Data Science Library_ [[3]](https://neo4j.com/docs/graph-data-science/current/) will make it easier for us to execute the available Neo4j graph algorithms.
+   - _Graph Data Science Library_ [[3]](https://neo4j.com/docs/graph-data-science/current/) is a tool to execute the available Neo4j graph algorithms.
 
 <p align="center">
  <img src="Assets/Images/Neo4j Desktop Plugins.PNG" width="70%">
@@ -43,11 +43,11 @@ The following instructions help implementing the SCC algorithm to detect the pre
    - Now you can manipulate the graph as you want the graph using _Cypher Query Language_ [[5]](https://neo4j.com/developer/cypher/).  
 
 <p align="center">
- <img src="Assets/Images/Neo4j Desktop Create Graph.PNG" width="70%">
+ <img src="Assets/Images/Neo4j Desktop Create Graph.png" width="70%">
 </p>
 
 <p align="center">
- <img src="Assets/Images/Neo4j Desktop Match Graph.PNG" width="70%">
+ <img src="Assets/Images/Neo4j Desktop Match Graph.png" width="70%">
 </p>
 
 **7.** Under the "_Graph Apps_" section, open "Graph Data Science Playground" aka _NEuler_.  
