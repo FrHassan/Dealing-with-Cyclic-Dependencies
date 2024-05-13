@@ -67,9 +67,9 @@ The following instructions help implementing the SCC algorithm to detect the pre
 </p>
 
 <p align="center">
- <img src="Assets/Images/NEuler Algorithm Result.PNG" width="70%">
+ <img src="Assets/Images/NEuler Algorithm Result.png" width="70%">
 </p>
 
 <p align="center">
- <img src="Assets/Images/NEuler Algorithm Result2.PNG" width="70%">
+ <img src="Assets/Images/NEuler Algorithm Result2.png" width="70%">
 </p>
