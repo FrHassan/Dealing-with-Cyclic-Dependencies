@@ -39,7 +39,7 @@ The following instructions help implementing the SCC algorithm to detect the pre
 </p>
 
 **5.** Under the "_Open_" list, open _Neo4j Browser_.  
-**6.** Create the microservices architecture associated graph using the "_Cypher_"  [[4]](https://neo4j.com/docs/cypher-manual/current/clauses/create/) (You can take inspiration from the code in /Assets/CypherCode).
+**6.** Create the microservices architecture associated graph using the "_Cypher_"  [[4]](https://neo4j.com/docs/cypher-manual/current/clauses/create/) (You can take inspiration from the code in /Assets/Case study 1 - Code cypher).
    - Now you can manipulate the graph as you want the graph using _Cypher Query Language_ [[5]](https://neo4j.com/developer/cypher/).  
 
 <p align="center">
