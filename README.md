@@ -3,11 +3,11 @@ This repository contains technical information and practical implementations of 
 
 The aforementioned paper offers additional illustrations, insights, and examples on how to address the cyclic dependencies anti-pattern in microservices architecture.
 
-# Executing the Strongly Connected Components (SCC) algorithm using Neo4j graph database
+# Strongly Connected Components (SCC) algorithm using Neo4j graph database
 
-To conduct a graph analysis based on the methodology outlined in this repository, we kindly request that you adhere to the provided instructions below.
+The following instructions help implementing the SCC algorithm to detect the presence of cyclic depednencies based on the methodology outlined in the paper.
 
-**1.** Install _Neo4j Desktop_ following the instructions mentioned in [[8]](https://neo4j.com/docs/desktop-manual/current/installation/download-installation/).  
+**1.** Install _Neo4j Desktop_ following the instructions mentioned in [[1]](https://neo4j.com/docs/desktop-manual/current/installation/download-installation/).  
 **2.** Use _Neo4j Desktop_ to create a new graph database.  
 
 <p align="center">
@@ -15,8 +15,8 @@ To conduct a graph analysis based on the methodology outlined in this repository
 </p>
 
 **3.** Under the database "_Plugins_" section, install "_APOC_" and "_Graph Data Science Library_". 
-   - _Awesome Procedures On Cypher (APOC)_ [[9]](https://neo4j.com/labs/apoc/) adds a lot of useful_ Cypher_ functionalities that help manipulating the data. 
-   - _Graph Data Science Library_ [[10]](https://neo4j.com/docs/graph-data-science/current/) will make it easier for us to execute the available Neo4j graph algorithms.
+   - _Awesome Procedures On Cypher (APOC)_ [[2]](https://neo4j.com/labs/apoc/) adds a lot of useful_ Cypher_ functionalities that help manipulating the data. 
+   - _Graph Data Science Library_ [[3]](https://neo4j.com/docs/graph-data-science/current/) will make it easier for us to execute the available Neo4j graph algorithms.
 
 <p align="center">
  <img src="Assets/Images/Neo4j Desktop Plugins.PNG" width="70%">
@@ -39,8 +39,8 @@ To conduct a graph analysis based on the methodology outlined in this repository
 </p>
 
 **5.** Under the "_Open_" list, open _Neo4j Browser_.  
-**6.** Create the microservices architecture associated graph using the "_Cypher_"  [[11]](https://neo4j.com/docs/cypher-manual/current/clauses/create/) (You can take inspiration from the code escorted to each existing project in this repository).
-   - Now you can manipulate as you want the graph using _Cypher Query Language_ [[12]](https://neo4j.com/developer/cypher/).  
+**6.** Create the microservices architecture associated graph using the "_Cypher_"  [[4]](https://neo4j.com/docs/cypher-manual/current/clauses/create/) (You can take inspiration from the code escorted to each existing project in this repository).
+   - Now you can manipulate the graph as you want the graph using _Cypher Query Language_ [[5]](https://neo4j.com/developer/cypher/).  
 
 <p align="center">
  <img src="Assets/Images/Neo4j Desktop Create Graph.PNG" width="70%">
