@@ -39,7 +39,7 @@ The following instructions help implementing the SCC algorithm to detect the pre
 </p>
 
 **5.** Under the "_Open_" list, open _Neo4j Browser_.  
-**6.** Create the microservices architecture associated graph using the "_Cypher_"  [[4]](https://neo4j.com/docs/cypher-manual/current/clauses/create/) (You can take inspiration from the code escorted to each existing project in this repository).
+**6.** Create the microservices architecture associated graph using the "_Cypher_"  [[4]](https://neo4j.com/docs/cypher-manual/current/clauses/create/) (You can take inspiration from the code in /Assets/CypherCode).
    - Now you can manipulate the graph as you want the graph using _Cypher Query Language_ [[5]](https://neo4j.com/developer/cypher/).  
 
 <p align="center">
@@ -58,17 +58,18 @@ The following instructions help implementing the SCC algorithm to detect the pre
 </p>
 
 **8.** With _NEuler_, you have the ability to utilize all the graph algorithms that are currently at your disposal.
-   - Ensure that you activate the "Store result?" checkbox and make a note of the "Write Property" option as it will be utilized later to save the acquired outcomes.
    - The official documentation provides comprehensive information on all the Neo4j graph algorithms that are available [[13]](https://neo4j.com/docs/graph-data-science/current/algorithms/).
+   - For the list of algorithms, choose "Strongly Connected Components".
+
 
 <p align="center">
- <img src="Assets/Images/NEuler Graph Algorithms.PNG" width="70%">
-</p>
-
-<p align="center">
- <img src="Assets/Images/Neo4j Desktop DB result.PNG">
+ <img src="Assets/Images/NEuler Graph Algorithms.png" width="70%">
 </p>
 
 <p align="center">
  <img src="Assets/Images/NEuler Algorithm Result.PNG" width="70%">
+</p>
+
+<p align="center">
+ <img src="Assets/Images/NEuler Algorithm Result2.PNG" width="70%">
 </p>
