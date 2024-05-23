@@ -1,0 +1,34 @@
+CREATE
+  (order:Microservice {name: 'Order'}),
+  (product:Microservice {name: 'Product'}),
+  (payment:Microservice {name: 'Payment'}),
+  (notification:Microservice {name: 'Notification'}),
+  (loyalty:Microservice {name: 'Loyalty'}),
+  (inventory:Microservice {name: 'Inventory'}),
+  (shipping:Microservice {name: 'Shipping'}),
+  (recommendation:Microservice {name: 'Recommendation'}),
+  (analytics:Microservice {name: 'Analytics'}),
+  (reviewsandrating:Microservice {name: 'Reviews and rating'}),
+
+  (order)-[:Depends]->(payment),
+  (order)-[:Depends]->(inventory),
+  (order)-[:Depends]->(inventory),
+  (order)-[:Depends]->(product),
+
+  (payment)-[:Depends]->(order),
+  (payment)-[:Depends]->(notification),
+
+  (notification)-[:Depends]->(order),
+  (notification)-[:Depends]->(loyalty),
+
+  (loyalty)-[:Depends]->(order),
+
+  (inventory)-[:Depends]->(shipping),
+
+  (shipping)-[:Depends]->(order),
+
+  (recommendation)-[:Depends]->(analytics),
+
+  (analytics)-[:Depends]->(recommendation),
+  (analytics)-[:Depends]->(order),
+  (analytics)-[:Depends]->(reviewsandrating)
