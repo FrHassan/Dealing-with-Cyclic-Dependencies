@@ -51,14 +51,14 @@ The following instructions help implementing the SCC algorithm to detect the pre
 </p>
 
 **7.** Under the "_Graph Apps_" section, open "Graph Data Science Playground" aka _NEuler_.  
-   - In case _NEuler_ is absent from the list, you can install it using this url:: [https://neo.jfrog.io/neo/api/npm/npm/neuler](https://neo.jfrog.io/neo/api/npm/npm/neuler)
+   - In case _NEuler_ is absent from the list, you can install it using this url: [https://neo.jfrog.io/neo/api/npm/npm/neuler](https://neo.jfrog.io/neo/api/npm/npm/neuler)
    - Copy the url and click on "Install".
 <p align="center">
  <img src="Assets/Images/Neo4j Desktop Graph Apps.PNG">
 </p>
 
 **8.** With _NEuler_, you have the ability to utilize all the graph algorithms that are currently at your disposal.
-   - The official documentation provides comprehensive information on all the Neo4j graph algorithms that are available [[13]](https://neo4j.com/docs/graph-data-science/current/algorithms/).
+   - The official documentation provides comprehensive information on all the Neo4j graph algorithms that are available [[6]](https://neo4j.com/docs/graph-data-science/current/algorithms/).
    - For the list of algorithms, choose "Strongly Connected Components".
 
 
